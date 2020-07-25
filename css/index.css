@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5%;
+    align-items: center;
+   
+}
+
+.logo a{
+    text-decoration: none;
+}
+#logo_head{
+    color: white;
+    
+}
+
+.uzi_gun li{
+    padding: 15px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.uzi_gun li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+}
+
+.uzi_gun li a:hover{
+    color: blue;
+    background-color: white;
+}
+
+.blog_content{
+    padding: 0px 15%;
+    display: flex;
+}
+
+.left_blog{
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#img_blog{
+    width: 100px;
+    height: 100px;
+}
+
+.right_bar{
+    width: 30%;
+    text-align: right;
+}
+
+.right_bar ul li{
+    display: inline-block;
+}
+
+.right_bar ul li a{
+    text-decoration: none;
+}
+
